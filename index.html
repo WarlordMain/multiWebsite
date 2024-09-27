@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Multiplikationsträning</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Träna multiplikationstabeller</h1>
+
+        <button onclick="startExercise()">Starta träning</button>
+
+        <div id="questionContainer" class="hidden">
+            <h2 id="question"></h2>
+            <input type="number" id="factor1" placeholder="Faktor 1">
+            <input type="number" id="factor2" placeholder="Faktor 2">
+            <button onclick="checkAnswer()">Kolla svar</button>
+
+            <p id="feedback"></p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
